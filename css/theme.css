@@ -5,15 +5,74 @@ html {
 img-size {
   max-width: 100%; }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 12, 2019, 3:20:30 PM
-    Author     : sonja
-*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #000000; }
+
+h5 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  color: #000000; }
+
+header .navbar-brand {
+  color: #fff; }
+header ul a {
+  color: #fff; }
+  header ul a:hover, header ul a.active {
+    color: #FCE38A; }
+header .navbar-toggler {
+  border-color: #95E1D3; }
+header .navbar-nav .nav-link {
+  font-size: 15px;
+  text-align: center;
+  border-bottom: 1px solid #fff; }
+  header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
+    border-bottom: 1px solid #FCE38A; }
+
+@media (min-width: 768px) {
+  header .navbar-nav .nav-link {
+    border: none; } }
+.lead-section {
+  background-size: cover;
+  background-position: center center; }
+  .lead-section p {
+    font-size: 50px;
+    font-family: "Kaushan Script", cursive;
+    color: #fff; }
+  .lead-section h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 60px; }
+  .lead-section .btn {
+    color: #fff;
+    height: 40px;
+    width: 160px;
+    border: 3px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: none; }
+    .lead-section .btn:hover {
+      color: #F38181; }
+
+@media (min-width: 768px) {
+  .lead-section p {
+    font-size: 72px; }
+  .lead-section h1 {
+    font-size: 150px; } }
+.counter {
+  background-color: #95E1D3;
+  color: #fff;
+  font-family: "Montserrat", sans-serif; }
+  .counter h3 {
+    font-size: 72px;
+    font-weight: 800; }
+  .counter p {
+    text-transform: uppercase; }
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -30,15 +89,6 @@ and open the template in the editor.
 */
 /* 
     Created on : Apr 12, 2019, 3:21:51 PM
-    Author     : sonja
-*/
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 12, 2019, 3:22:32 PM
     Author     : sonja
 */
 /*

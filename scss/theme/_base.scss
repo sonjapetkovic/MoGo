@@ -8,3 +8,19 @@ html{
 img-size{
     max-width: 100%;
 }
+body{
+    font-family: $font-roboto;
+    font-weight: $font-weight-regular;
+    
+}
+
+h2{
+    font-family: $font-montserrat;
+    font-weight: $font-weight-regular;
+    color:#000000;
+}
+h5{
+    font-family: $font-kaushianScript;
+    font-weight: $font-weight-regular;
+    color:#000000;
+}

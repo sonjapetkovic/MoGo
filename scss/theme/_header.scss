@@ -1,1 +1,44 @@
 
+
+header{
+    .navbar-brand{
+        color: #fff;
+        
+    }
+    ul{
+        a{
+            color:#fff;
+            &:hover,&.active{
+                color:$yellow;
+            }
+        }
+    }
+    .navbar-toggler{
+        border-color: $primary;
+        
+    }
+    .navbar-nav{
+        .nav-link{
+            font-size: 15px;
+            text-align: center;
+            border-bottom: 1px solid $white;
+            
+            &:hover,&.active{
+                border-bottom: 1px solid $yellow;
+            }
+        }
+    }
+}
+
+
+@media(min-width:768px){
+    header{
+        .navbar-nav{
+            .nav-link{
+                border: none;
+                
+               
+            }
+        }
+    }
+}
