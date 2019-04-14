@@ -73,33 +73,24 @@ header .navbar-nav .nav-link {
   .counter p {
     text-transform: uppercase; }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 12, 2019, 3:21:04 PM
-    Author     : sonja
-*/
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 12, 2019, 3:21:51 PM
-    Author     : sonja
-*/
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 12, 2019, 3:23:22 PM
-    Author     : sonja
-*/
+.services .w-20 {
+  color: #95E1D3;
+  font-size: 31px; }
+.services .w-80 h6 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.devices {
+  background-size: cover;
+  background-position: center center; }
+
+.slider1 {
+  background-color: #F8F8F8; }
+  .slider1 p {
+    font-size: 24px; }
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
