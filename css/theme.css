@@ -86,11 +86,41 @@ header .navbar-nav .nav-link {
   background-size: cover;
   background-position: center center; }
 
-.slider1 {
+.slider-1 {
+  position: relative;
   background-color: #F8F8F8; }
-  .slider1 p {
+  .slider-1 p {
     font-size: 24px; }
+  .slider-1 .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%; }
+  .slider-1 .owl-prev {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    left: 100px;
+    height: 30px;
+    width: 30px;
+    background-color: #CCCCCC; }
+  .slider-1 .owl-next {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    right: 100px;
+    height: 30px;
+    width: 30px;
+    background-color: #CCCCCC; }
+  .slider-1 .fa {
+    line-height: 26px;
+    font-size: 2rem; }
 
+@media (min-width: 992px) {
+  .slider-1 .owl-nav .owl-prev {
+    left: 5%; }
+  .slider-1 .owl-nav .owl-next {
+    right: 5%; } }
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
