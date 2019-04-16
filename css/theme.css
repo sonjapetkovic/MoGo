@@ -48,6 +48,13 @@ header .navbar-nav .nav-link {
     color: #fff;
     font-weight: 800;
     font-size: 60px; }
+    .lead-section h1:after {
+      content: "";
+      display: block;
+      margin: 20px auto 0;
+      height: 3px;
+      width: 60px;
+      background-color: #FFFFFF; }
   .lead-section .btn {
     color: #fff;
     height: 40px;
@@ -63,6 +70,14 @@ header .navbar-nav .nav-link {
     font-size: 72px; }
   .lead-section h1 {
     font-size: 150px; } }
+.story h2:after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background-color: #F38181;
+  display: block;
+  margin: 20px auto 0; }
+
 .counter {
   background-color: #95E1D3;
   color: #fff;
@@ -81,10 +96,32 @@ header .navbar-nav .nav-link {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
+.services h2:after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background-color: #F38181;
+  display: block;
+  margin: 20px auto 0; }
 
 .devices {
   background-size: cover;
   background-position: center center; }
+  .devices h2:after {
+    content: "";
+    height: 3px;
+    width: 60px;
+    background-color: #F38181;
+    display: block;
+    margin: 20px auto 0; }
+
+.whatwedo h2.red-line:after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background-color: #F38181;
+  display: block;
+  margin: 20px auto 0; }
 
 .slider-1 {
   position: relative;
@@ -115,21 +152,27 @@ header .navbar-nav .nav-link {
   .slider-1 .fa {
     line-height: 26px;
     font-size: 2rem; }
+  .slider-1 h5:before {
+    content: "";
+    height: 3px;
+    width: 60px;
+    background-color: #F38181;
+    display: inline-block;
+    margin: 20px auto 0; }
 
 @media (min-width: 992px) {
   .slider-1 .owl-nav .owl-prev {
     left: 5%; }
   .slider-1 .owl-nav .owl-next {
     right: 5%; } }
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 12, 2019, 3:23:45 PM
-    Author     : sonja
-*/
+.team h2:after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background-color: #F38181;
+  display: block;
+  margin: 20px auto 0; }
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates

@@ -1,1 +1,14 @@
 
+
+.story{
+    h2{
+        &:after{
+            content: "";
+            height: 3px;	
+            width: 60px;	
+            background-color: $secondary;
+            display:block;
+            margin:20px auto 0;
+        }
+    }
+}

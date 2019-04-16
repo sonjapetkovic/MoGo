@@ -39,6 +39,17 @@
         line-height: 26px;
         font-size: 2rem;
     }
+    h5{
+        &:before{
+            content: "";
+            height: 3px;	
+            width: 60px;	
+            background-color: $secondary;
+            display:inline-block;
+            margin:20px auto 0;
+            
+        }
+    }
     
 }
 
