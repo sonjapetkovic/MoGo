@@ -172,25 +172,45 @@ header .navbar-nav .nav-link {
   background-color: #F38181;
   display: block;
   margin: 20px auto 0; }
+.team .team-member {
+  position: relative;
+  transition: 0.5 linear; }
+  .team .team-member:hover {
+    box-shadow: 5px 5px 8px #95E1D3; }
+  .team .team-member .team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: linear-gradient(270deg, #F38181 0%, #FCE38A 100%);
+    display: none; }
+    .team .team-member .team-hover .team-social {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center; }
+      .team .team-member .team-hover .team-social .fa {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+        color: #fff; }
+  .team .team-member:hover.team-hover {
+    display: block; }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 12, 2019, 3:24:17 PM
-    Author     : sonja
-*/
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 12, 2019, 3:24:51 PM
-    Author     : sonja
-*/
+.badges {
+  background-color: #F8F8F8;
+  text-align: center; }
+
+.somework h2:after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background-color: #F38181;
+  display: block;
+  margin: 20px auto 0; }
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
