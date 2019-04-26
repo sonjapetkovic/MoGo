@@ -306,15 +306,29 @@ header .navbar-nav .nav-link {
     left: 5%; }
   .slider-1 .owl-nav .owl-next {
     right: 5%; } }
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 12, 2019, 3:25:41 PM
-    Author     : sonja
-*/
+.clients {
+  background-size: cover;
+  background-position: center center; }
+  .clients h2:after {
+    content: "";
+    height: 3px;
+    width: 60px;
+    background-color: #F38181;
+    display: block;
+    margin: 20px auto 0; }
+  .clients .client-item img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hiden; }
+  .clients .client-item .red-line:after {
+    content: "";
+    height: 3px;
+    width: 60px;
+    background-color: #F38181;
+    display: block;
+    margin: 20px auto 0; }
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
