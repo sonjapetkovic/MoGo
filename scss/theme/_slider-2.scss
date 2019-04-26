@@ -1,9 +1,17 @@
 
 
-
-.slider-1{
+.slider-2{
     position:relative;
     background-color: #F8F8F8;
+    
+    img{
+        display:block;
+        height: 232px;
+        width: 326px;
+        border-radius: 50%;
+        overflow: hidden;
+       
+    }
     
     p{
         font-size: 24px;

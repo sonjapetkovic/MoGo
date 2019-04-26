@@ -24,6 +24,22 @@ $(document).ready(function(){
         
     }
     
+    //slider2
+     if($('.owl-carousel').length>0){
+        
+       
+        $('.slider2').owlCarousel({
+            items:1,
+            nav:true,
+            dots:false,
+            loop:true,
+            navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+        });
+        
+        
+        
+    }
+    
     
     
 });
