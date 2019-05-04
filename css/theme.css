@@ -352,14 +352,18 @@ figure {
       top: 40px;
       left: 12px; }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 12, 2019, 3:26:39 PM
-    Author     : sonja
-*/
+.map h2 {
+  color: #F38181; }
+  .map h2 a {
+    color: #F38181; }
+  .map h2:after {
+    content: "";
+    height: 3px;
+    width: 60px;
+    background-color: #F38181;
+    display: block;
+    margin: 20px auto 0; }
+.map h3 {
+  color: #F38181; }
 
 /*# sourceMappingURL=theme.css.map */
